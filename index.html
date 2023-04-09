@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="image">
+            <img src="img/bmw_m4_bmw_avtomobil_319764_1920.jpg" alt="">
+        </div>
+        <div class="image">
+            <img src="img/gub-1608133278.jpg" alt="">
+        </div>
+        <div class="image">
+            <img src="img/mercedes_e350_mercedes_avtomobil.jpg" alt="">
+        </div>
+        <div class="image">
+            <img src="img/mustang-2338356_1280.jpg" alt="">
+        </div>
+        <div class="image">
+            <img src="img/nissan_370z_nissan_avtomobil_210.jpg" alt="">
+        </div>
+
+        <div class="button">
+            <a onclick="nextimg(-1)" class="prev">&#10094;</a>
+            <a onclick="nextimg(1)" class="next">&#10095;</a>
+        </div>
+
+        <div class="dots">
+            <span class="dot" onclick="currentSlide(1)"></span>
+            <span class="dot" onclick="currentSlide(2)"></span>
+            <span class="dot" onclick="currentSlide(3)"></span>
+            <span class="dot" onclick="currentSlide(4)"></span>
+            <span class="dot" onclick="currentSlide(5)"></span>
+        </div>
+    </div>
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>
